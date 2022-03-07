@@ -1,1 +1,0 @@
-C:\Users\Rodrigo\IdeaProjects\KotlinClassEConstructor\build\classes\kotlin\main\MainKt.class;C:\Users\Rodrigo\IdeaProjects\KotlinClassEConstructor\build\classes\kotlin\main\avião.class;C:\Users\Rodrigo\IdeaProjects\KotlinClassEConstructor\build\classes\kotlin\main\eletronico.class
