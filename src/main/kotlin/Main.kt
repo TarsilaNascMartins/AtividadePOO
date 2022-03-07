@@ -4,8 +4,8 @@ fun main() {
    em seguida crie um objeto avião, defina as instancias deste objeto e apresente as
    informações deste objeto no console.
    */
-
-  /*  val linhaTam = avião()
+ /*
+   val linhaTam = avião()
 
     linhaTam.numPiloto = 2
     linhaTam.numCoPiloto = 3
@@ -13,12 +13,31 @@ fun main() {
     linhaTam.classe = "economica"
     linhaTam.passageiro = 100
 
-     linhaTam.mostrarPassageiros()
-            linhaTam.mostrarFuncionarios()
+    println("O motor está desligado ou ligado?\n Digite 1- para ligar e 2- para manter desligado")
+    val resposta33 = readLine()!!.toInt()
+
+    println("Vamos decolar? Digite a velocidade para começar a decolar.")
+    val velocidadeDecolar = readLine()!!.toDouble()
+
+    linhaTam.motorOnoff(resposta33)
+    linhaTam.DecolaAterrissa(resposta33, velocidadeDecolar)
+
+
+        println("Deseja ver as informações do seu voo? sim/não")
+          val info = readLine()!!.toString()
+
+           if (info == "SIM" || info == "sim"){
+            linhaTam.mostrarInformacoesVoo()
+            println("Obrigada pela escolha da nossa companhia aerea.")
+           } else {
+             println("Ok! Tenha uma boa viagem.")
+            }
 
 
 
-   */
+  */
+
+
     /*
     3) Crie uma classe produto eletrônico e apresente os atributos e métodos referentes
     esta classe, em seguida crie um objeto produto eletrônico, defina as instancias deste
@@ -61,6 +80,25 @@ fun main() {
    //  print(info)
 
 
+      println("*** Teste do seu aparelho $valor2 versão $valor4 *** ")
+
+        print("Digite o valor da bateria:")
+        val bat = readLine()!!.toInt()
+
+                info.totalBateria(bat)
+
+
+    println("Você recebeu uma ligação, deseja atender?")
+    val lig = readLine()!!.toString()
+
+    if (lig == "SIM" || lig == "sim") {
+        info.recebeLig(bat)
+    } else {
+        println ("A ligação foi recusada.")
+    }
+
+
+
  */
 
 /*
@@ -69,19 +107,34 @@ fun main() {
   informações deste objeto no console.
  */
 
-    /*
+
     //salarioTotal = (salario - (valorDia * diasAusentes)) + comissão
 
 
-    val trab = funcionario (1200.0, "Celulares seu Zé")
+    val trab = funcionario ( "Celulares do Seu Zé")
 
-    println("***SALÁRIO TRABALHADOR***")
+    println("***SALÁRIO TRABALHADOR ${trab.empresa}***")
 
     println("Digite o nome do funcionário:")
     val nomeTrabalhador = readLine()!!
 
     println("Digite o código de cadastro do funcionário:")
     val codigoTrabalhador = readLine()!!.toInt()
+
+
+    //Calcular comissão
+
+    println("Vamos calcular a comissão, seu gerente digitará de 1 à 4 \n para ver o quanto" +
+            "de comissão você ganhará, cada item é um ponto." +
+            "\n - Revisou os códigos" +
+            "\n - Realizou as reuniões diárias e ajudou nos feedbacks" +
+            "\n - Entregou todos os projetos da semana" +
+            "\n - Realizou os pprojetos no tempo estipulado pela sprint")
+
+      val pontos = readLine()!!.toInt()
+
+    trab.valorComissao(pontos, 100)
+
 
     println("Digite o seu salário fixo:")
     val salario = readLine()!!.toDouble()
@@ -93,10 +146,10 @@ fun main() {
     val diasAusentes = readLine()!!.toInt()
 
     trab.nomeTrab (nomeTrabalhador, codigoTrabalhador)
-    trab.salarioTotal(salario, valorDia, diasAusentes)
+    trab.salarioTotal(salario, valorDia, diasAusentes, pontos, 100)
 
 
-     */
+
 
 
 
