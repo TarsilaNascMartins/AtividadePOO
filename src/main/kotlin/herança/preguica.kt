@@ -10,8 +10,13 @@ class preguica (idade: Int, nome: String): animal(idade, nome) {
             return "A preguiça come folhas e frutos."
     }
 
+    fun subindo (): String{
+        return "Subindo na árvore como uma preguiça."
+    }
+
     override fun toString(): String {
-        return    "Som que faz: ${som()}" +
+        return    "Status : ${subindo()}" +
+                "\nSom que faz: ${som()}" +
                 "\nO que come: ${comer()}"
     }
 

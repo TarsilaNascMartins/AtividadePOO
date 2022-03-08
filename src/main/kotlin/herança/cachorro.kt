@@ -9,6 +9,9 @@ class cachorro(idade: Int, nome: String):animal(idade, nome) {
         return "O cachorro come ração."
     }
 
+    fun correr (): String{
+      return "Correndo como um cachorro."
+    }
 
     fun mostrardado (){
 
@@ -16,7 +19,8 @@ class cachorro(idade: Int, nome: String):animal(idade, nome) {
     }
 
     override fun toString(): String {
-        return "Som que faz: ${som()}" +
+        return "Status: ${correr()}" +
+                "\nSom que faz: ${som()}" +
                 "\nO que come: ${comer()}"
     }
 }
