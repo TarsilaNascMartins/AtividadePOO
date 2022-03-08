@@ -6,8 +6,8 @@
 ##
 4) Crie uma classe funcionário e apresente os atributos e métodos referentes esta classe, em seguida crie um objeto funcionário, defina as instancias deste objeto e apresente as informações deste objeto no console.
 
-##
-#Pasta: Cliente
+
+# Pasta: Cliente
 
 Cria uma Classe Cliente, contendo os atributos encapsulados, um construtor padrão e pelo menos
 mais duas opções de construtores conforme sua percepção, com os atributos: nome (String), endereço
