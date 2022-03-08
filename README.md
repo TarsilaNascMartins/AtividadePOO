@@ -18,7 +18,7 @@ Crie um método para verificar o nome ao inicializar a classe e, caso esteja vaz
  try catch.
 
 
-# Pasta Herança
+# Pasta: Herança
 
 Crie uma hierarquia de classes conforme abaixo com os seguintes atributos e comportamentos (observe a tabela), utilize os seus conhecimentos e distribua as características de forma que tudo o que for comum a todos os animais fique na classe Animal: 
 
